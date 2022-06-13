@@ -1,5 +1,4 @@
 # Alien-Invasion
-PCC project with additions
 
 In Alien Invasion, the player controls a rocket shop that appears  at the
 bottom center of the screen.
