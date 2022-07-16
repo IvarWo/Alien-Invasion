@@ -24,3 +24,6 @@ Added:
 - Pause functionality
 	* Inform player about pausing and resuming
 - Sound when bullet is fired
+
+**update**
+Execute the *alien_invasion.py* file to play the game :)
