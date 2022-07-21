@@ -18,8 +18,8 @@ class Quit:
 
         # Build the button's rect object and center it.
         self.rect = pygame.Rect(0, 0, self.width, self.height)
-        self.rect.x = 860
-        self.rect.y = 565
+        self.rect.center = self.screen_rect.center
+        self.rect.y += 50
 
         # The button message needs to be prepped only once.
         self._prep_quit_msg(msg)
