@@ -17,8 +17,7 @@ class Resume:
 
         # Build the button's rect object and center it.
         self.rect = pygame.Rect(0, 0, self.width, self.height)
-        self.rect.x = 710
-        self.rect.y = 565
+        self.rect.center = self.screen_rect.center
 
         # The button message needs to be prepped only once.
         self._prep_resume_msg(msg)
