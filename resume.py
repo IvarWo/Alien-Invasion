@@ -9,17 +9,17 @@ class Resume:
         self.screen = ai_game.screen
         self.screen_rect = self.screen.get_rect()
 
-        # Set the dimensions and properties of the button
+        # Set the dimensions and properties of the Resume button
         self.width, self.height = 500, 50
         self.button_color = (215, 119, 23)
         self.text_color = (0, 0, 0)
         self.font = pygame.font.SysFont(None, 48)
 
-        # Build the button's rect object and center it.
+        # Build the Resume button's rect object and center it.
         self.rect = pygame.Rect(0, 0, self.width, self.height)
         self.rect.center = self.screen_rect.center
 
-        # The button message needs to be prepped only once.
+        # The Resume message needs to be prepped only once.
         self._prep_resume_msg(msg)
 
     def _prep_resume_msg(self, msg):
